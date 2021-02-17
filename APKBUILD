@@ -14,7 +14,7 @@ makedepends="bison findutils flex installkernel openssl-dev perl"
 
 _carch="arm64"
 # Source
-_commit="a737b4b57ee7240880e3e812797cf483a1914037"
+_commit="8502fc0795d8ae89756264352d12f0f846a9f8b4"
 source="
 	$pkgname-$_commit.tar.gz::https://github.com/Kiciuk/linux/archive/$_commit.tar.gz
 	config-$_flavor.$arch
